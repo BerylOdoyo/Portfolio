@@ -1,9 +1,69 @@
-header {
-    background-color: white;
-  }
+*{
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
   
   .profilepic {
     height: 200px;
     width: 200px;
   }
+
+  body{
+    background-color: rgb(5, 5, 4);
+    color: #fff;
+  
+   }
+  
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    list-style: none;
+  }
+  
+  .nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .nav-links ul li::after{
+    content: '';
+    background: #f44336;
+    height: 2px;
+    width: 0%;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+  
+  span{
+    color: #f44336;
+  }
+  
+  .project1-pic{
+    height: 200px;
+    width: 200px;
+  }
+
+  .project2-pic{
+    height: 200px;
+    width: 200px;
+  }
+
+  .project3-pic{
+    height: 200px;
+    width: 200px;
+  }
+
+  
   

@@ -9,15 +9,23 @@
   </head>
   <body>
     <header>
+      <section class="nav-links">
+        <ul>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </section>
+
       <h1>
-        Hello! my name is Beryl Odoyo <br />
+        Hello! my name is <span>Beryl Odoyo</span> <br />
         I'm a Front-end Developer <br>
       </h1>
       <a href="#about">Find out more </a>
     </header>
 
     <main>
-      <section>
+      <section id="about">
         <h2>About Me</h2>
         <div>
           <img class="profilepic"
@@ -28,48 +36,50 @@
         </div>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Projects</h2>
 
         <article>
-          <h3>Project Title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A esse non mollitia nemo ipsam. Earum esse distinctio provident minima enim odio? Cumque quas unde itaque distinctio delectus eaque, impedit voluptatibus.
+          <h3>Terrarium</h3>
+          <img class="project1-pic" src="img/Terrarium.jpg" alt="A beautiful garden in a jar" />
+          <p>This is a beautiful glass jar garden that allows you to move the plants around the screen. The users can use their creativity to arrange the plants to their hears desire. The project was created using HTML, CSS and Javascript.
           </p>
-          <img src="" alt="a picture of the project i engaged in" />
+          <a href="https://berylodoyo.github.io/Terrarium2/">A website displaying the Terrarium.</a>
         </article>
 
         <article>
           <h3>Project Title 2</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates unde commodi, nemo in recusandae perferendis dicta dolores velit deserunt voluptatibus? Eveniet, assumenda! Quae autem impedit alias, est asperiores nulla veniam!</p>
-          <img src="" alt="a picture of the project i engaged in" />
+          <img class="project2-pic" src="" alt="a picture of the project i engaged in" />
         </article>
 
         <article>
           <h3>Project Title 3</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, unde. Ratione velit, vitae aspernatur sit omnis sequi magnam? Aliquid neque optio repellat maxime quam architecto consectetur quaerat, magnam fugit commodi?</p>
-          <img src="" alt="a picture of the project i engaged in" />
+          <img class="project3-pic" src="" alt="a picture of the project i engaged in" />
         </article>
       </section>
 
-      <section>
+      <section id="contact">
         <h2>Contact</h2>
+        <img src="img/icon-email.svg" alt="">
+        <p>berylkimberly@gmail.com</p>
         <p>Write me an email and we can start on working on  your project</p>
-        <a href="">Let's Create Awesome Projects!</a>
       </section>
     </main>
 
     <footer>
       <ul>
-        <li>
-          <a href="">Twitter</a>
+        <li class="twitter">
+          <a href="#"><i class="fab fa-twitter"></i></a>
         </li>
 
-        <li>
-          <a href="">Github</a>
+        <li class="github">
+          <a href="#"><i class="fab fa-github"></i></a>
         </li>
       </ul>
 
-      <p>&copy;2022 - Portfolio designed by Beryl Achieng Odoyo</p>
+      <p>&copy;Copyright 2022 Beryl Odoyo. All rights reserved</p>
     </footer>
   </body>
-</html>
+</html> 
