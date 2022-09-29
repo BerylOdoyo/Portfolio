@@ -11,7 +11,6 @@
   body{
     background-color: rgb(5, 5, 4);
     color: #fff;
-  
    }
   
   .nav-links{
@@ -53,6 +52,7 @@
   .project1-pic{
     height: 200px;
     width: 200px;
+    
   }
 
   .project2-pic{
@@ -64,6 +64,3 @@
     height: 200px;
     width: 200px;
   }
-
-  
-  
